@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let myarray = ['audi', 'maybuch', 'lexus', 'ferrari', ['bmw', 'mclaren', 'dodge', [10, 20, 30], 'cadillac'], 'bugatti', 'lambo', 'porsche']
+        console.log(myarray)
+
+        // indexing 
+        console.log(myarray[0])
+        console.log(myarray[3])
+        console.log(myarray[4][0])
+        console.log(myarray[4][3][0])
+
+        // adding a value 
+        myarray.push('koenigsegg')
+
+        // deleting value 
+        myarray.pop()
+
+        // change to string 
+        let letter = ('3', '4', '6')
+        letter.toString()
+        console.log(letter)
+
+        // delete an element 
+        myarray.shift([2])
+        console.log(myarray)
+
+        // undo shift 
+        myarray.unshift(['yellow'])
+        console.log(myarray)
+
+        let number = ('20', '30', '40')
+
+        // extract an element from array 
+        number.slice([1], [0])
+        console.log(number)
+
+        // adding item
+        let number2 = ['20', '30', '40']
+        number2.splice([2], [0], 'lemon')
+        console.log(number2)
+
+        // replace 
+        let number1 = ['20', '30', '40']
+        number3 = number1.splice([0], [1], 'yellow')
+        console.log(number3)
+
+        // // delete 
+        let numbe = ['20', '30', '40']
+        num = numbe.splice([0], [2])
+        console.log(num)
+    </script>
+</body>
+
+</html>

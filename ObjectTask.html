@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        my_object = [23,
+            "Jane",
+            560,
+            ["Lesson", "Maths", { "currency": "KES" }],
+            987,
+            76,
+            "John"
+        ]
+        console.log(my_object)
+        console.log(my_object[1])
+console.log(my_object['currency'])
+
+
+
+// convert to string
+my_object[4]=String(my_object[4])
+
+// convert to array 
+my_object[4]=my_object[4].split("")
+
+// reverse array
+my_object[4]=my_object[4].reverse()
+
+// array to sring 
+my_object[4]=my_object[4].join("")
+
+// back to number 
+my_object[4]=Number(my_object[4])
+console.log(my_object)
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        // let num = prompt("Enter a number:")
+        // if (num % 2 == 0) {
+        //     console.log("Number is even")
+        // } else {
+        //     console.log("Number is odd")
+        // }
+
+
+        // let number1 = Number(prompt("Enter Number"))
+        // let number2 = Number(prompt("Enter Number"))
+        // let number3 = Number(prompt("Enter Number"))
+        // if (number1 > number2 && number1 > number3) {
+        //     console.log(number1, ":is greatest")
+        // } else if (number2 > number1 && number2 > number3) {
+        //     console.log(number2, ":is greatest")
+        // }
+        // else {
+        //     console.log(number3, ":is greatest")
+        // }
+
+
+        let year = prompt("enter year")
+        if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+            console.log("year is a leap year")
+        } else if (year % 100 == 0) {
+            console.log("year a normal year")
+        }
+        else {
+            console.log("year not a leap year")
+        }
+
+    </script>
+</body>
+
+</html>
